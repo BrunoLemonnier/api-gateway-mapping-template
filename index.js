@@ -69,6 +69,7 @@ module.exports = function(parameters) {
     },
     util: {
       escapeJavaScript: escapeJavaScript,
+      parseJson: JSON.parse,
       urlEncode: encodeURIComponent,
       urlDecode: decodeURIComponent,
       base64Encode: base64Encode,
